@@ -1,0 +1,24 @@
+1.Ans:-
+To create an object in Java, you typically use the new keyword followed by the constructor of the class you want to instantiate. For example:
+ClassName objectName = new ClassName();
+
+2.Ans:-
+In Java, a "new keyword" isn't exactly a thing, but if you're referring to the new keyword, it's used to create an instance of a class or to allocate memory for an object.
+
+3.Ans:-
+In Java, variables can be categorized into different types:
+
+Primitive types: int, double, boolean, char, etc.
+Reference types: Objects of classes, interfaces, arrays, etc.
+
+4.Ans:-
+The main difference between instance variables and local variables in Java is their scope and lifetime:
+
+Instance variables: These are declared within a class but outside any method, constructor, or block. They are instantiated when an object of the class is created and are accessible throughout the class.
+Local variables: These are declared within a method, constructor, or block. They are created when the method, constructor, or block is entered and destroyed when it exits. They are accessible only within the scope in which they are declared.
+
+5.Ans:-
+Memory for instance variables is allocated in the heap memory when an object of the class is created using the new keyword. Memory for local variables is allocated on the stack memory when the method, constructor, or block in which they are declared is invoked.
+
+6.Ans:-
+Method overloading in Java allows a class to have multiple methods with the same name but with different parameters. This allows you to define multiple methods with the same name but different behaviors based on the types or number of parameters they accept. Overloading is determined at compile time based on the method signature.
